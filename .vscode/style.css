@@ -1,0 +1,56 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+  }
+  
+  h1 {
+    margin: 20px;
+  }
+  
+  #gameCanvas {
+    display: block;
+    margin: 0 auto;
+    background: #111;
+    border: 2px solid #fff;
+  }
+  
+  #score {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  /* style.css */
+#gameOverScreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: none; /* Скрыто по умолчанию */
+}
+
+#restartButton {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#restartButton:hover {
+  background: #0056b3;
+}
